@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "totalResults": 5421,
+  "articles": [
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "https://www.facebook.com/bbcnews",
+      "title": "Insects find their way onto Italian plates despite resistance",
+      "description": "Pulverising crickets to make flour for food is seen by some as a threat to the Mediterranean diet.",
+      "url": "https://www.bbc.co.uk/news/world-europe-66022857",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14F1F/production/_130219758_sofiatastingcrickettagliatelle.jpg",
+      "publishedAt": "2023-07-08T04:42:53Z",
+      "content": "Media caption, The BBC's Sofia Bettiza visits a cricket farm near Turin, Italy\r\nIn a small room near the Alps in northern Italy, containers filled with millions of crickets are stacked on top of each… [+6967 chars]"
+    },
+    {
+      "source": { "id": null, "name": "NPR" },
+      "author": "Brashna Kasi",
+      "title": "America doesn't really care about cricket. Can Major League Cricket change that?",
+      "description": "The new league makes its debut near Dallas on Thursday when the Texas Super Kings play the LA Knight Riders. The league's backers hope to cultivate a new generation of U.S. cricketers.",
+      "url": "https://www.npr.org/2023/07/13/1187445629/major-league-cricket-debut-texas-history-sport",
+      "urlToImage": "https://media.npr.org/assets/img/2023/07/13/ap23193166972710_wide-83ac6baf7108a8a2d6ef64e40e3084c753b83936-s1400-c100.jpg",
+      "publishedAt": "2023-07-13T16:38:41Z",
+      "content": "The Kolkata Knight Riders' Andre Russell plays a shot during Indian Premier League cricket match in Kolkata on April 29. Russell is a player on Major League Cricket's Los Angeles Knight Riders.\r\nBika… [+3576 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Mihir Bose",
+      "title": "If you want to make cricket truly diverse, don't fixate on bat and ball – focus on what happens in the tea break | Mihir Bose",
+      "description": "There is a social element to the game that could be an opportunity, but right now heightens the sense of othering and exclusionWhat do they know of cricket who only cricket know, asked the great CLR James. He talked of cricket as a prism through which we migh…",
+      "url": "https://www.theguardian.com/commentisfree/2023/jun/30/cricket-bat-ball-game-exclusion",
+      "urlToImage": "https://i.guim.co.uk/img/media/7719a4297270a63f75a8abce3b4cca2a5b5686d4/309_520_3691_2214/master/3691.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=4b94f2aa1a93905fb2087944648c2b67",
+      "publishedAt": "2023-06-30T05:00:34Z",
+      "content": "What do they know of cricket who only cricket know, asked the great CLR James. He talked of cricket as a prism through which we might view society, and that remains as true now as in 1963, when Beyon… [+6213 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Simon Burnton at Lord's",
+      "title": "MCC suspends three members after clash with Australian cricket team",
+      "description": "<ul><li>Tourists allege players were ‘verbally abused’ by MCC members</li><li>Incident took place following Bairstow’s controversial dismissal</li></ul>The Marylebone Cricket Club has suspended three members after an altercation with the Australian cricket te…",
+      "url": "https://www.theguardian.com/sport/2023/jul/02/mcc-unreservedly-apologised-to-australia-after-long-room-incident-england-ashes",
+      "urlToImage": "https://i.guim.co.uk/img/media/618c78dd8d85bcc38aff93ab89704213eaf75ace/16_950_1175_704/master/1175.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e94004433d6f743b3faba7891845a411",
+      "publishedAt": "2023-07-02T20:43:37Z",
+      "content": "The Marylebone Cricket Club has suspended three members after an altercation with the Australian cricket team at Lords on the last day of the second Ashes Test.\r\nThe club had earlier unreservedly apo… [+8253 chars]"
+    }
+  ]
+}
