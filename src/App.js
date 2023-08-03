@@ -11,16 +11,28 @@ export default class App extends Component {
   };
   setProgress = (progress) => {
     this.setState({ progress: progress });
-  }
+  };
   apiKey = process.env.REACT_APP_NEWS_API;
   render() {
     return (
       <div>
         <NavBar />
-        <LoadingBar height = {3} color="#f11946" progress={this.state.progress}  />
+        <LoadingBar height={3} color="#f11946" progress={this.state.progress} />
         <Routes>
           <Route
             path="/"
+            element={
+              <News
+                setProgress={this.setProgress}
+                key="general"
+                pageSize={15}
+                category="general"
+                apiKey={this.apiKey}
+              />
+            }
+          />
+          <Route
+            path="/React-Project2-NewsApp"
             element={
               <News
                 setProgress={this.setProgress}

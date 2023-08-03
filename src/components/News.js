@@ -2,8 +2,19 @@ import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 import Spinner from "./Spinner";
 import InfiniteScroll from "react-infinite-scroll-component";
+import PropTypes from "prop-types";
 
 export class News extends Component {
+  static defaultProps = {
+    country: "us",
+    pageSize: 8,
+    category: "general",
+  };
+  static propTypes = {
+    country: PropTypes.string,
+    pageSize: PropTypes.number,
+    category: PropTypes.string,
+  };
   capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
@@ -32,12 +43,12 @@ export class News extends Component {
       totalResults: parsedData.totalResults,
       loading: false,
     });
-    this.props.setProgress(100)
+    this.props.setProgress(100);
   }
 
   fetchMoreData = async () => {
+    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     this.setState({ page: this.state.page + 1 });
-    let url = `https://newsapi.org/v2/top-headlines?country=us&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     let data = await fetch(url);
     let parsedData = await data.json();
     this.setState({
@@ -48,7 +59,7 @@ export class News extends Component {
   render() {
     return (
       <>
-        <h1 style={{ margin: "20px 0px" }} className="text-center">
+        <h1 style={{ margin: "20px 0px", marginTop: "85px" }} className="text-center">
           NewsMonkey - Top {this.capitalizeFirstLetter(this.props.category)}{" "}
           Headlines
         </h1>
